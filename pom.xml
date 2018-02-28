@@ -494,7 +494,7 @@
                         </repository>
                         <snapshotRepository>
                             <id>snapshot</id>
-                            <name>Snapshot</name>
+                            <name>snapshot</name>
                             <url>http://192.168.33.20:8081/nexus/content/repositories/snapshot/</url>
                         </snapshotRepository>
                         
