@@ -486,6 +486,19 @@
                             </additionalparam>
                         </configuration>
                     </plugin>
+                    <distributionmanagement>
+                        <repository>
+                            <id>releases</id>
+                            <name>releases</name>
+                            <url>http://192.168.33.20:8081/nexus/content/repositories/releases/</url>
+                        </repository>
+                        <snapshotRepository>
+                            <id>snapshot</id>
+                            <name>Snapshot</name>
+                            <url>http://192.168.33.20:8081/nexus/content/repositories/snapshot/</url>
+                        </snapshotRepository>
+                        
+                        </distributionmanagement>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-jxr-plugin</artifactId>
