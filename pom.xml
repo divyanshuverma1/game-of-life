@@ -7,9 +7,6 @@
     <packaging>pom</packaging>
     <!--comment-->
     <!--comment-->
-    <!--comment-->
-    <!--comment-->
-    <!--comment-->
     <distributionManagement>
                         <repository>
                             <id>releases</id>
